@@ -122,7 +122,7 @@ export const useSettingsStore = create<SettingsState>()(
             : {};
 
         if (version < 3) {
-          data.keybindings = { ...DEFAULT_SHORTCUTS };
+          (data as any).keybindings = { ...DEFAULT_SHORTCUTS };
         }
 
         const existing = (data as { keybindings?: ShortcutMap }).keybindings;

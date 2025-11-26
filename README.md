@@ -1,10 +1,8 @@
-# 打滑作业平台
+# SkidHomework
 
 [ENGLISH README](/README-EN.md)
 
 符合人体工程学设计、人工智能驱动的作业助手
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcubewhy%2Fskid-homework)
 
 ## 警告: 破坏性修改
 
@@ -128,13 +126,11 @@ OpenAI API 未经完整测试, 若出现问题请携带 Devtools 中的日志开
 
 ### 我还有其他问题
 
-请移步 [issues](https://github.com/cubewhy/skid-homework/issues)
+请开启一个issue讨论
 
-## Star 历史记录
+## 贡献
 
 如果这个项目节省了你的时间, 请务必献上一个 Star!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=cubewhy/skid-homework&type=Date)](https://www.star-history.com/#cubewhy/skid-homework&Date)
 
 ## 为什么太多作业不好
 
@@ -161,8 +157,6 @@ OpenAI API 未经完整测试, 若出现问题请携带 Devtools 中的日志开
 本项目鼓励用户遵守学术诚信, 请勿在考试中使用本软件.
 
 若违规使用, 本项目不承担任何责任
-
-本项目使用 GPLv3 授权, 开发者无权控制软件的分发.
 
 ## 开发
 

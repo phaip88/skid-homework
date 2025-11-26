@@ -552,16 +552,7 @@ ${traits}
             )}
           >
             <p>
-              {t("footer.license")} {t("footer.slogan")}{" "}
-              <a
-                className="underline"
-                href="https://github.com/cubewhy/skid-homework"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {/* {t("footer.source")} */}
-                https://github.com/cubewhy/skid-homework
-              </a>
+              {t("footer.slogan")}
             </p>
           </footer>
         </div>

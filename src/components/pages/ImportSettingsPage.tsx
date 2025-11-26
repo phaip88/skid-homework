@@ -119,7 +119,7 @@ export default function ImportSettingsPage() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <p>{t(errorKey)}</p>
+            <p>{t(errorKey as "error.parse-failed" | "error.title" | "error.home")}</p>
           </CardContent>
           <CardFooter>
             <Button variant="outline" onClick={() => router.push("/")}>

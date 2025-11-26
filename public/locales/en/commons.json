@@ -87,7 +87,7 @@
       "parsing-failed": "Failed to parse the AI response."
     },
     "footer": {
-      "license": "Licensed under GPL-3.0.",
+      "license": "",
       "slogan": "Students' lives matter",
       "source": "Source code"
     }
@@ -425,7 +425,7 @@
       "hints": "Hints"
     },
     "footer": {
-      "notice": "Licensed under GPLv3, created by cubewhy.",
+      "notice": "",
       "source": "Source Code"
     }
   },

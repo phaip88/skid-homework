@@ -58,6 +58,43 @@ interface Resources {
       "subtitle": "Discuss problems with your configured models.",
       "title": "SkidHomework Chat"
     },
+    "import-settings-page": {
+      "confirm": {
+        "alert": {
+          "description": "Only import configurations from sources you trust. Otherwise it may cause a privacy leak. Use at your own risk.",
+          "title": "Security Check"
+        },
+        "buttons": {
+          "cancel": "Cancel",
+          "confirm": "Yes, Import"
+        },
+        "description": "Do you want to add this configuration to your settings?",
+        "fields": {
+          "base": "Base URL:",
+          "model": "Model Name:",
+          "name": "Name:",
+          "provider": "Provider:"
+        },
+        "title": "Import AI Model"
+      },
+      "error": {
+        "home": "Return Home",
+        "parse-failed": "Failed to parse configuration. The link might be broken.",
+        "title": "Error"
+      },
+      "loading": {
+        "parsing": "Parsing configuration..."
+      },
+      "success": {
+        "buttons": {
+          "home": "Let's Skid",
+          "settings": "Settings",
+          "undo": "Undo"
+        },
+        "description": "The AI model <strong>{{name}}</strong> has been successfully imported.",
+        "title": "You're all set!"
+      }
+    },
     "improve-dialog": {
       "description": "Generate a more detailed solution using the current solution and your prompt.",
       "placeholder": "Make it more detailed...",
@@ -91,7 +128,7 @@ interface Resources {
         "telemetry": "No telemetry or spammy calls. Just the Gemini API."
       },
       "footer": {
-        "notice": "Licensed under GPLv3, created by cubewhy.",
+        "notice": "",
         "source": "Source Code"
       },
       "form": {
@@ -139,6 +176,16 @@ interface Resources {
     "problem-list": {
       "item-label": "Problem {{index}}"
     },
+    "qwen-callout": {
+      "badge": "Free",
+      "button": "Get token",
+      "title": "Official Qwen Max Service",
+      "tooltip": {
+        "link": "Console -> Token Management",
+        "prefix": "How to import into SkidHomework? Visit",
+        "suffix": "-> Chat quick import for SkidHomework."
+      }
+    },
     "scan-page": {
       "donate-btn": "Donate now",
       "errors": {
@@ -151,7 +198,7 @@ interface Resources {
         }
       },
       "footer": {
-        "license": "Licensed under GPL-3.0.",
+        "license": "",
         "slogan": "Students' lives matter",
         "source": "Source code"
       },
@@ -218,6 +265,7 @@ interface Resources {
         "title": "Advanced Settings",
         "ui": {
           "show-donate-btn": "Show donate button",
+          "show-qwen-hint": "Show Qwen Max service tip",
           "title": "UI"
         }
       },
