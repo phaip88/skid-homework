@@ -44,12 +44,12 @@ export const IMPROVE_SYSTEM_PROMPT = String.raw`
 
 \`\`\`xml
 <solution>
-  <improved_answer>
-    <![CDATA[这里是改进之后的答案]]>
-  </improved_answer>
   <improved_explanation>
     <![CDATA[这里是改进之后的解析]]>
   </improved_explanation>
+  <improved_answer>
+  <![CDATA[这里是改进之后的答案]]>
+  </improved_answer>
 </solution>
 \`\`\`
 
@@ -90,8 +90,8 @@ export const SOLVE_SYSTEM_PROMPT = String.raw`
   <problems>
     <problem>
       <problem_text><![CDATA[这里是OCR识别出的完整问题文本。]]</problem_text>
-      <answer><![CDATA[这里是问题的最终答案。]]</answer>
       <explanation><![CDATA[这里是问题的详细解题步骤。]]></explanation>
+      <answer><![CDATA[这里是问题的最终答案。]]</answer>
     </problem>
     <!-- 如果有多个问题，在此处继续添加 <problem> 标签 -->
   </problems>
@@ -132,7 +132,6 @@ export const SOLVE_SYSTEM_PROMPT = String.raw`
   <problems>
     <problem>
       <problem_text>解方程: $$ x^2 - 5x + 6 = 0 $$</problem_text>
-      <answer>$$ x_1 = 2, x_2 = 3 $$</answer>
       <explanation><![CDATA[这是一个一元二次方程，可以使用因式分解法或求根公式来求解。
 
 **1. 因式分解法**
@@ -144,6 +143,7 @@ export const SOLVE_SYSTEM_PROMPT = String.raw`
 
 **2. 结论**
 因此，方程的解为 $$ x_1 = 2 $$ 和 $$ x_2 = 3 $$。]]></explanation>
+      <answer>$$ x_1 = 2, x_2 = 3 $$</answer>
     </problem>
   </problems>
 </solution>
