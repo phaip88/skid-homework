@@ -6,8 +6,6 @@
 
 符合人体工程学设计、人工智能驱动的作业助手
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcubewhy%2Fskid-homework)
-
 ## 警告: 破坏性修改
 
 我们已经将服务迁移到 Next.js, 部署时请注意配置差异.
@@ -81,11 +79,7 @@ Skid-Homework 不会要求你下载桌面软件, 一切东西都在浏览器内�
 
 ### 我的电脑上没有摄像头, 请帮帮我
 
-[SkidCamera](https://github.com/cubewhy/SkidCamera) 正是您想要的。
-
-为自学者设计的符合人体工程学的相机软件
-
-请参照 SkidCamera README 中的步骤来使用
+请确保您的设备配备了摄像头，或使用支持摄像头的设备来使用本平台。
 
 ### 老师不喜欢我的答案风格/答案风格不符合我的预期
 
@@ -140,15 +134,9 @@ Devtools 功能如下
 
 ### 我还有其他问题
 
-> 如果你发现了Bug, 请到 [issues](https://github.com/cubewhy/skid-homework/issues) 反馈, 否则请移步讨论区.
+如有问题或建议，请通过适当的渠道反馈。
 
-请移步 [讨论区](https://github.com/cubewhy/skid-homework/discussions)
 
-## Star 历史记录
-
-如果这个项目节省了你的时间, 请务必献上一个 Star!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=cubewhy/skid-homework&type=Date)](https://www.star-history.com/#cubewhy/skid-homework&Date)
 
 ## 为什么太多作业不好
 

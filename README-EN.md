@@ -4,8 +4,6 @@
 
 Ergonomically designed, AI-powered homework solver
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcubewhy%2Fskid-homework)
-
 ## Why SkidHomework
 
 If this tool saved your time, please give us a star or share this tool to your friends!
@@ -44,16 +42,9 @@ You need to request a Gemini API key for AI usage.
 | Shift+Tab   | Previous file                            |
 | /           | Improve solution                         |
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=cubewhy/skid-homework&type=Date)](https://www.star-history.com/#cubewhy/skid-homework&Date)
-
 ## I don't have a camera on my computer, please help
 
-The [SkidCamera](https://github.com/996-ai/SkidCamera)
-is what you are looking for.
-
-Please follow the guide in the SkidCamera README.
+Please ensure your device has a camera, or use a device with camera support to use this platform.
 
 ## Why Too Much Homework is bad
 

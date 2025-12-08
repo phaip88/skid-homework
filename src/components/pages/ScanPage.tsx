@@ -451,16 +451,10 @@ ${traits}
               )}
               size={isMobile ? "lg" : "default"}
               variant="secondary"
-              asChild
+              disabled
             >
-              <a
-                href="https://github.com/cubewhy/skid-homework/discussions"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <StarIcon className="h-4 w-4" />
-                {t("discussions-btn")}
-              </a>
+              <StarIcon className="h-4 w-4" />
+              {t("discussions-btn")}
             </Button>
           </header>
 
@@ -552,16 +546,7 @@ ${traits}
             )}
           >
             <p>
-              {t("footer.license")} {t("footer.slogan")}{" "}
-              <a
-                className="underline"
-                href="https://github.com/cubewhy/skid-homework"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {/* {t("footer.source")} */}
-                https://github.com/cubewhy/skid-homework
-              </a>
+              {t("footer.license")} {t("footer.slogan")}
             </p>
           </footer>
         </div>

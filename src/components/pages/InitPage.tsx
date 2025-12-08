@@ -338,14 +338,7 @@ export default function InitPage() {
 
       <footer className="relative z-10 mx-auto max-w-6xl px-6 pb-10 text-xs text-slate-500">
         <div className="opacity-80">
-          {t("footer.notice")}{" "}
-          <a
-            href="https://github.com/cubewhy/skid-homework"
-            className="underline"
-          >
-            {/* {t("footer.source")} */}
-            https://github.com/cubewhy/skid-homework
-          </a>
+          {t("footer.notice")}
         </div>
       </footer>
     </div>
