@@ -19,8 +19,6 @@ If this tool saved your time, please give us a star or share this tool to your f
 
 ## Try it
 
-The official instance is available at [https://skid.996every.day](https://skid.996every.day)
-
 You need to request a Gemini API key for AI usage.
 
 [Google AI Studio](https://aistudio.google.com/api-keys)

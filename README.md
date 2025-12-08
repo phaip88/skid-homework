@@ -35,9 +35,7 @@ Skid-Homework 不会要求你下载桌面软件, 一切东西都在浏览器内�
 
 ## 现在尝试
 
-官方实例部署在 [https://skid.996every.day](https://skid.996every.day)
-
-您需要申请一个 Gemini API 密钥或者自备一个OpenAI 兼容API 才能访问 AI。
+您需要申请一个 Gemini API 密钥或者自备一个 OpenAI 兼容 API 才能访问 AI。
 
 [Google AI Studio](https://aistudio.google.com/api-keys)
 
